@@ -478,14 +478,64 @@ header .contact-text:focus {
 
 }
 
+/*  ...Секция --Клиенты-- ... */
+.client .client-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+
+}
+
+.client .client-list {
+  display: flex;
+  justify-content: center;
+}
+
+.client-list .client-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.client-item .client-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+
+.client-link .client-logo {
+  width: 120px;
+  height: 60px;
+
+  fill: #AFB1B8;
+
+}
+
+.client-link:hover .client-logo,
+.client-link:focus .client-logo {
+  fill: #2196F3;
+}
+
+.client-link:hover,
+.client-link:focus {
+  border-color: #2196F3;
+}
+
 
 /* ...Подвал в сайте всех страниц... */
 .basement {
   background-color: var(--secondary-bg-color);
   padding-top: 60px;
   padding-bottom: 60px;
-
 }
+
+
 
 /* logo-footer */
 
