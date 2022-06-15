@@ -276,6 +276,23 @@ header .contact-text:focus {
 
 }
 
+.features-element .icon-field {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+
+  background-color: #F5F4FA;
+
+}
+
+.feature-icon {
+  width: 70px;
+  height: 70px;
+
+}
 
 /*       подзаголовки */
 .features .features-subtitle {
