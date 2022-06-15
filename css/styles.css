@@ -417,6 +417,43 @@ header .contact-text:focus {
 
 }
 
+.team-info .icon-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.icon-list .icon-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.icon-item .icon-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.team-info .icon-social {
+  width: 20px;
+  height: 20px;
+  fill: #AFB1B8;
+  ;
+}
+
+.team-info .icon-link:hover,
+.team-info .icon-link:focus {
+  background-color: #2196F3;
+}
+
+.icon-link:hover .icon-social,
+.icon-link:focus .icon-social {
+  fill: #FFFFFF;
+}
+
+
 /* имя работника */
 
 .team-item .team-name {
