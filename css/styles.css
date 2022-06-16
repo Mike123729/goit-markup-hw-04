@@ -178,7 +178,7 @@ header .logo-upper {
   padding-top: 32px;
   padding-bottom: 32px;
 
-  color: #757575;
+  color: var(--secondary-text-color);
 
 
   font-weight: 500;
@@ -556,6 +556,8 @@ header .contact-text:focus {
 
 .social .social-text {
   margin-top: 0;
+  margin-bottom: 0;
+
 
   font-style: normal;
   font-weight: 700;
@@ -568,7 +570,7 @@ header .contact-text:focus {
 .social .social-list {
   display: flex;
   gap: 10px;
-  margin-top: 16px;
+  margin-top: 20px;
 }
 
 .social .social-link {
