@@ -587,7 +587,12 @@ header .contact-text:focus {
   fill: #FFFFFF;
 }
 
+
 .social-item:hover .social-link {
+  background-color: #2196F3;
+}
+
+.social-link:focus {
   background-color: #2196F3;
 }
 
