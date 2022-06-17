@@ -660,7 +660,7 @@ header .contact-text:focus {
 /* сетка для списка товаров */
 
 .gallery-catalogue .card-set {
-  --card-grid-item: 9;
+  --card-grid-item: 3;
 }
 
 /* убираем стандартную линию-подчеркивание для сылки */
