@@ -332,6 +332,12 @@ header .contact-text:focus {
 
 }
 
+.work .card-set {
+  --card-grid-item: 3;
+
+}
+
+
 .work-item img {
   display: block;
 }
